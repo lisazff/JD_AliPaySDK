@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
 
   
-  s.author             = { "Fangfang Zhang" => "zhangff@ibobei.cn" }
+  s.author             = { "lisazff" => "1085983505@qq.com" }
   
   # s.platform     = :ios
   s.platform     = :ios, "10.0"
@@ -29,8 +29,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/lisazff/JD_AliPaySDK.git", :tag => "#{s.version}" }
 
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+ #s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
